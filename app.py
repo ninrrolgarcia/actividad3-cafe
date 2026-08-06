@@ -34,7 +34,6 @@ def load_model_and_classes():
 model, class_dict = load_model_and_classes()
 
 # 2. Configuración de API de Groq
-# La API key se lee preferentemente desde los Secrets de Streamlit
 GROQ_API_KEY = st.secrets.get("GROQ_API_KEY", os.getenv("GROQ_API_KEY", ""))
 
 def consultar_groq(enfermedad):
@@ -78,7 +77,7 @@ with col_left:
     
     if uploaded_file is not None:
         image = Image.open(uploaded_file).convert('RGB')
-        st.image(image, caption="Imagen cargada", use_column_width=True)
+        st.image(image, caption="Imagen cargada", use_container_width=True)
 
 with col_right:
     if uploaded_file is not None:
