@@ -12,7 +12,8 @@ st.set_page_config(
     page_icon="🍃",
     layout="wide"
 )
-
+# Título principal de la actividad
+st.title("Actividad # 3- Servicio en la nube, detección de enfermedades hoja del cafe - Ninrrol Garcia")
 # Estilo personalizado para emular la interfaz
 st.markdown("""
     <style>
