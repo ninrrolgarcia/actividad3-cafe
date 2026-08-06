@@ -3,6 +3,7 @@
 **Autor:** Ninrrol Garcia  
 **Asignatura:** Computación en la Nube  
 **Despliegue Web:** https://ninrrolgarcia-actividad3.streamlit.app/
+**Documentación Técnica Completa (PDF):** [Descargar Manual Técnico PDF](./Documentacion_Tecnica_Servicio_Nube_Cafe.pdf)
 
 ---
 
